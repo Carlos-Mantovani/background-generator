@@ -1,0 +1,16 @@
+body {
+    text-align: center;
+}
+
+#gradient {
+    background: linear-gradient(to right, red, yellow);
+}
+
+#inputs-color {
+    height: 50px;
+}
+
+#random-btn {
+    font-size: 16px;
+    padding: 5px;
+}
