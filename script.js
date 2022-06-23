@@ -4,8 +4,6 @@ var color2 = document.querySelector('#color2');
 var body = document.querySelector('#gradient');
 var randomButton = document.querySelector('#random-btn');
 
-console.log(color1.value)
-
 function setGradient() {
     body.style.background = `linear-gradient(to right, ${color1.value}, ${color2.value})`;
     css.textContent = body.style.background + ';';
